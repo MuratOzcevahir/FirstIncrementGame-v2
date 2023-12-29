@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(200, 191, 173) !important;
+    color: black;
+    font-family: 'Gemunu Libre', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.item_buy_style {
+    padding: 0px 5px;
+    margin: 0px 5px;
+    border: 1px solid rgb(125, 125, 125);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+}
+
+.item_buy_style span {
+    margin: 0px 2px;
+}
+
+.item_buy_style:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+button {
+    font-family: 'Gemunu Libre', sans-serif !important;
+    font-weight: 500 !important;
+
+}
+
+.button_holder {
+    height: 100%;
+    margin: 0px 15px;
+    background-color: rgb(195, 185, 156);
+    box-shadow: 0px 0px 2px 0px rgba(94, 94, 94, 0.75);
+
+
+}
+
+#profile_level_holder {
+    color: white;
+    font-size: 15px;
+
+}
+
+#coin_info_holder span {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(236, 204, 123);
+}
+
+#game_title_holder {
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.755);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    color: rgb(153, 194, 112);
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+#top_general_info {
+    background-color: rgb(52, 52, 52);
+    border-top: 1px solid rgb(236, 204, 123);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 500,
+        'GRAD' 500,
+        'opsz' 48
+}
+
+.button_holder .detail_holder span {
+    font-weight: 600;
+    color: rgb(54, 54, 54);
+}
+
+ button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700!important;
+    color: rgba(36, 36, 36, 0.919);
+    border: none;
+    border-bottom: solid rgba(90, 61, 39, 0.221) 1px;
+    text-transform: uppercase;
+}
+
+ button:hover {
+
+    background-color: rgba(255, 111, 0, 0.666) !important;
+}
+
+#wood_tasks #chop_wood {
+    background-color: rgb(122, 172, 122);
+    margin-left: 0px;
+}
+
+#wood_tasks #buy_storage {
+
+    background-color: rgb(214, 175, 147);
+
+}
+
+.sell_wood_holder span:hover {
+    background-color: rgb(236, 204, 123);
+    cursor: pointer;
+}
+
+#sell_wood {
+    background-color: rgb(236, 204, 123);
+}
+
+#buy_woodcutter {
+    background-color: rgb(140, 163, 197);
+
+}
+
+#text_storage_full {
+    margin: 20px 0px;
+}
+
+#resource_holder {
+    background-color: rgba(0, 0, 255, 0.032);
+    border: 1px solid rgba(174, 39, 5, 0.177);
+    padding: 0px 10px;
+}
+
+#resource_holder #resource_wood span {
+    font-size: 22px;
+}
+
+#resource_holder #resource_wood {
+    background-color: rgba(255, 238, 126, 0.1);
+    padding: 0px;
+
+}
+
+#text_error {
+    color: rgb(183, 10, 10);
+    padding: 0px 20px;
+    background-color: rgba(222, 1, 1, 0.137);
+    font-weight: 600;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#resource_holder #resource_stone span {
+    font-size: 22px;
+}
+
+#resource_holder #resource_stone {
+    margin-top: 2px;
+    background-color: rgba(255, 238, 126, 0.1);
+    padding: 0px;
+}
+
+#resource_holder #resource_meat span {
+    font-size: 22px;
+}
+
+#resource_holder #resource_meat {
+    background-color: rgba(255, 238, 126, 0.1);
+    margin-top: 2px;
+    padding: 0px;
+
+}
+
+#general_information_holder {
+    background-color: rgba(156, 62, 0, 0.219);
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+    border-width: 2px;
+    border-color: rgb(85, 60, 11);
+    position: relative;
+}
+
+#item_information {
+    margin: 8px 3px;
+}
+
+#item_information span {
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+    line-height: 15px;
+
+}
+
+#hunt_food {
+    background-color: rgb(255, 138, 138);
+}
+
+#chop_wood #chop_wood_text {
+    color: rgb(15, 42, 7);
+}
+
+.update {
+    background-color: rgba(0, 0, 0, 0.073);
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    font-size: 13px !important;
+    box-shadow: none !important;
+    font-weight: 700 !important;
+}
